@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtisto.Core", "Rtisto.Core\Rtisto.Core.csproj", "{073873A9-C697-4ECC-BA39-8CE09E6EA591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtisto.Services", "Rtisto.Services\Rtisto.Services.csproj", "{3B1F1CCE-D594-4D17-B226-87E70DCE2B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtisto.Web.Admin", "Rtisto.Web.Admin\Rtisto.Web.Admin.csproj", "{CA781DDA-70F6-4787-9EB9-4EEC226CC380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073873A9-C697-4ECC-BA39-8CE09E6EA591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073873A9-C697-4ECC-BA39-8CE09E6EA591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073873A9-C697-4ECC-BA39-8CE09E6EA591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073873A9-C697-4ECC-BA39-8CE09E6EA591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1F1CCE-D594-4D17-B226-87E70DCE2B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1F1CCE-D594-4D17-B226-87E70DCE2B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1F1CCE-D594-4D17-B226-87E70DCE2B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1F1CCE-D594-4D17-B226-87E70DCE2B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA781DDA-70F6-4787-9EB9-4EEC226CC380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA781DDA-70F6-4787-9EB9-4EEC226CC380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA781DDA-70F6-4787-9EB9-4EEC226CC380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA781DDA-70F6-4787-9EB9-4EEC226CC380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

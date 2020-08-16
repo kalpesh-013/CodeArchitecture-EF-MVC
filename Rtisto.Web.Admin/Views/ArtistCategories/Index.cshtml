@@ -1,0 +1,23 @@
+﻿@model List<Rtisto.Core.Domain.ArtistCategory>
+
+@{
+    ViewBag.Title = "Artist Categories";
+    List<Rtisto.Core.Domain.ArtistCategory> data = ViewBag.Name;
+}
+
+<h2>Artist Categories</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+    </tr>
+    @foreach (var cat in Model)
+    {
+        <tr>
+            <td>@cat.Id</td>
+            <td>@cat.Title</td>
+        </tr>
+    }
+</table>
+
